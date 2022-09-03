@@ -25,7 +25,7 @@ function draw() {
   stroke(0, 255, 0);
   strokeWeight(2);
   rectMode(CENTER);
-  let range = new Rectangle(mouseX, mouseY, 25, 25);
+  let range = new Rectangle(mouseX, mouseY, 80, 40);
   rect(range.x, range.y, range.w * 2, range.h * 2);
   let points = [];
   qtree.query(range, points);
