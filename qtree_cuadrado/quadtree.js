@@ -1,3 +1,4 @@
+//Quadtree cuadrado
 class Point { //clase punto
   constructor(x, y) {
     this.x = x;
@@ -103,7 +104,7 @@ class QuadTree { //clase quadtree
     }
 
     for (let p of this.points) {
-      strokeWeight(4);
+      strokeWeight(3);
       point(p.x, p.y);
     }
   }
